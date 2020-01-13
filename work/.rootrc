@@ -1,0 +1,4 @@
+Rint.Logon:                /tmp/star-install/StRoot/macros/rootlogon.C
+Rint.Logoff:               /tmp/star-install/StRoot/macros/rootlogoff.C
+Unix.*.Root.MacroPath:     ./:/tmp/star-install/StRoot/macros:$(ROOTSYS)/macros
+Unix.*.Root.DynamicPath:   ./:/tmp/star-install/lib:$(ROOTSYS)/lib
