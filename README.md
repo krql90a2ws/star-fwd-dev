@@ -14,11 +14,6 @@ Now, make sure the submodules are initialized:
 git submodule update --init --recursive
 ```
 
-Make sure that the script `dev.sh` is executable:
-```sh
-chmod +x dev.sh
-```
-
 ## Running the forward tracking code
 Launch a (docker) development environment with:
 ```sh
