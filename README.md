@@ -31,8 +31,14 @@ root4star -b -q -l simple.C
 ```
   
 This will produce an output called `results.root` with histograms etc.
-The code lives in `star-sw/StRoot` so you can edit the code here.  
-  
+
+## Modifying and building
+The code lives in `star-sw/StRoot/StgMaker/` so you can edit the code here.  
+After making changes you can rebuild the code with:
+```sh
+./build
+```
+If compilation succeeds then the code is updated.
   
 ## Forward Tracking Configuration
 The forward tracking code is driven by a configuration file `work/config.xml` :
