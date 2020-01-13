@@ -1,4 +1,3 @@
 cd /tmp/star-build
-make StgMaker/fast -j6
-make install -j6
+make StgMaker/fast -j6 && make install -j6
 cd /tmp/work
