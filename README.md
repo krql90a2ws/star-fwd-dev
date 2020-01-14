@@ -19,7 +19,14 @@ Launch a (docker) development environment with:
 ```sh
 ./dev.sh
 ```
-This will drop you into a docker container with the current path of `/tmp/work/` where work is you local `work` directory mounted into the container. Before running the code, setup the STAR environment variables:
+This will drop you into a docker container with the current path of `/tmp/work/` where work is you local `work` 
+NOTE: if you are far from BNL or just want to make running faster you can use:
+```sh
+./dev.sh --network none
+```
+This will disable the network inside the container, making the STAR DB access return instantly. It may speed up the running of the code a lot if you have a poor connection to BNL. 
+
+directory mounted into the container. Before running the code, setup the STAR environment variables:
 ```sh
 source star_env
 ```
