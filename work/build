@@ -1,3 +1,5 @@
 cd /tmp/star-build
-make StgMaker/fast -j6 && make install -j6
+make StgMaker/fast -j6 && cp /tmp/star-build/StRoot/StgMaker/libStgMaker.so /tmp/star-install/lib/libStgMaker.so
+# this is the full make and install line. Maybe needed if the above doesnt work
+#make StgMaker/fast&& make install -j6
 cd /tmp/work
