@@ -1,1 +1,1 @@
-docker run --rm -ti -w /tmp/work -v `pwd`/work:/tmp/work -v `pwd`/star-sw/StRoot:/tmp/star-sw-fwd/StRoot jdbburg/star-fwd:latest bash
+docker run --rm -ti $@ -w /tmp/work -v `pwd`/work:/tmp/work -v `pwd`/star-sw/StRoot:/tmp/star-sw-fwd/StRoot jdbburg/star-fwd:latest bash
