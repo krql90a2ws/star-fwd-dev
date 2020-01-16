@@ -1,3 +1,6 @@
 [submodule "star-sw"]
 	path = star-sw
 	url = https://github.com/jdbrice/star-sw.git
+[submodule "StForwardTrackMaker"]
+	path = StForwardTrackMaker
+	url = https://github.com/jdbrice/StForwardTrackMaker.git

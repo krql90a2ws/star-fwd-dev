@@ -78,11 +78,11 @@
 
 	</TrackFinder>
 
-	<TrackFitter constB="true" display="false" noMaterialEffects="true" off="false">
+	<TrackFitter constB="false" display="false" noMaterialEffects="false" off="false" refitSi="true">
 		<Vertex sigmaXY="0.01" sigmaZ="5" includeInFit="true" />
 		
 		<!-- for MC only -->
-		<Hits sigmaXY="0.01" useFCM="true" />
+		<Hits sigmaXY="0.01" useFCM="true" sigmaSiXY="0.01" />
 	</TrackFitter>
 
 	<!-- SegmentBuilder Criteria 
