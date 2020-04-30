@@ -14,7 +14,8 @@ void read_results_stgc_only(){
   gStyle->SetTitleFontSize(0.03);
   gStyle->SetTitleOffset(1);
 
-  TFile *file = new TFile("/Users/krishangopal/FST/Analysis/RootFiles/results_stgc_only.root");//path for root file
+  TFile *file = new TFile("results_r0p01.root");
+  //results_stgc_only.root");//path for root file
 
   //  file->ls();
 
